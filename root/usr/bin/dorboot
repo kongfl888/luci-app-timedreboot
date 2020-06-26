@@ -91,7 +91,7 @@ justcfg() {
         if [ -z "$param" ]; then
         echo "1"
             set_cron "$cfgstr" "$once"
-        elif [ "$param" != "0" -a "$param" != "1" ]; then
+        elif [ "$param" != "$once" ]; then
         echo "2"
             set_cron "$cfgstr" "$once"
         else
