@@ -1,0 +1,91 @@
+# CONFIG_ALL_KMODS is not set
+# CONFIG_DEFAULT_luci-app-accesscontrol is not set
+# CONFIG_DEFAULT_luci-app-adbyby-plus is not set
+# CONFIG_DEFAULT_luci-app-arpbind is not set
+# CONFIG_DEFAULT_luci-app-autoreboot is not set
+# CONFIG_DEFAULT_luci-app-cpufreq is not set
+# CONFIG_DEFAULT_luci-app-ddns is not set
+# CONFIG_DEFAULT_luci-app-filetransfer is not set
+# CONFIG_DEFAULT_luci-app-flowoffload is not set
+# CONFIG_DEFAULT_luci-app-nlbwmon is not set
+# CONFIG_DEFAULT_luci-app-ramfree is not set
+# CONFIG_DEFAULT_luci-app-sfe is not set
+# CONFIG_DEFAULT_luci-app-ssr-plus is not set
+# CONFIG_DEFAULT_luci-app-unblockmusic is not set
+# CONFIG_DEFAULT_luci-app-upnp is not set
+# CONFIG_DEFAULT_luci-app-vlmcsd is not set
+# CONFIG_DEFAULT_luci-app-vsftpd is not set
+# CONFIG_DEFAULT_luci-app-wol is not set
+# CONFIG_DEFAULT_mtd is not set
+# CONFIG_DEFAULT_netifd is not set
+# CONFIG_PACKAGE_mtd is not set
+# CONFIG_PACKAGE_luci-app-adbyby-plus is not set
+# CONFIG_PACKAGE_luci-app-ddns is not set
+# CONFIG_PACKAGE_luci-app-filetransfer is not set
+# CONFIG_PACKAGE_luci-app-flowoffload is not set
+# CONFIG_PACKAGE_luci-app-nlbwmon is not set
+# CONFIG_PACKAGE_luci-app-ramfree is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray_plugin is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_V2ray is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Redsocks2 is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server is not set
+# CONFIG_PACKAGE_luci-app-unblockmusic is not set
+# CONFIG_PACKAGE_luci-app-upnp is not set
+# CONFIG_PACKAGE_luci-app-vlmcsd is not set
+# CONFIG_PACKAGE_luci-app-vsftpd is not set
+# CONFIG_PACKAGE_luci-app-wol is not set
+# CONFIG_PACKAGE_miniupnpd is not set
+# CONFIG_PACKAGE_ddns-scripts is not set
+# CONFIG_PACKAGE_ddns-scripts_aliyun is not set
+# CONFIG_PACKAGE_ddns-scripts_dnspod is not set
+# CONFIG_PACKAGE_dns2socks is not set
+# CONFIG_PACKAGE_UnblockNeteaseMusic is not set
+# CONFIG_PACKAGE_UnblockNeteaseMusicGo is not set
+# CONFIG_PACKAGE_v2ray-plugin is not set
+# CONFIG_PACKAGE_shadowsocks-libev-ss-local is not set
+# CONFIG_PACKAGE_shadowsocks-libev-ss-redir is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-alt is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-server is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-local is not set
+# CONFIG_PACKAGE_adbyby is not set
+# CONFIG_PACKAGE_vlmcsd is not set
+
+# CONFIG_PACKAGE_kmod-crypto-aead is not set
+# CONFIG_PACKAGE_kmod-crypto-arc4 is not set
+# CONFIG_PACKAGE_kmod-crypto-authenc is not set
+# CONFIG_PACKAGE_kmod-crypto-ecb is not set
+# CONFIG_PACKAGE_kmod-crypto-manager is not set
+# CONFIG_PACKAGE_kmod-crypto-pcompress is not set
+# CONFIG_PACKAGE_kmod-crypto-sha1 is not set
+# CONFIG_PACKAGE_kmod-lib-crc-ccitt is not set
+# CONFIG_PACKAGE_kmod-lib-textsearch is not set
+# CONFIG_PACKAGE_kmod-nf-flow is not set
+# CONFIG_PACKAGE_kmod-mppe is not set
+# CONFIG_PACKAGE_kmod-pppox is not set
+# CONFIG_PACKAGE_kmod-slhc is not set
+# CONFIG_PACKAGE_kmod-tcp-bbr is not set
+
+CONFIG_LIBSODIUM_MINIMAL=y
+CONFIG_AUTOREMOVE=y
+CONFIG_BRCMFMAC_SDIO=y
+CONFIG_IMAGEOPT=y
+CONFIG_JSON_ADD_IMAGE_INFO=y
+CONFIG_KERNEL_ARM_PMU=y
+CONFIG_KERNEL_BLK_DEV_THROTTLING=y
+CONFIG_KERNEL_BTRFS_FS_POSIX_ACL=y
+CONFIG_KERNEL_KALLSYMS=y
+CONFIG_KERNEL_PERF_EVENTS=y
+CONFIG_LUCI_LANG_en=y
+CONFIG_LUCI_LANG_zh-cn=y
+CONFIG_PACKAGE_bash=y
+
+CONFIG_PACKAGE_unzip=y
+CONFIG_PACKAGE_gzip=y
+CONFIG_PACKAGE_tar=y
+CONFIG_PACKAGE_pv=y
+
+CONFIG_PACKAGE_luci-base=y
+
+CONFIG_PACKAGE_luci-app-timedreboot=y
