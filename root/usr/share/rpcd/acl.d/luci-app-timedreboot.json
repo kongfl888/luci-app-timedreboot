@@ -1,0 +1,11 @@
+{
+	"luci-app-timedreboot": {
+		"description": "Grant UCI access for luci-app-timedreboot",
+		"read": {
+			"uci": [ "timedreboot" ]
+		},
+		"write": {
+			"uci": [ "timedreboot" ]
+		}
+	}
+}

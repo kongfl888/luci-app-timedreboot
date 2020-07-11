@@ -35,8 +35,8 @@ define Package/$(PKG_NAME)/install
 	$(INSTALL_DIR) $(1)/etc/init.d
 	cp ./root/etc/init.d/timedreboot $(1)/etc/init.d/timedreboot
 
-	$(INSTALL_DIR) $(1)/usr/bin
-	cp ./root/usr/bin/dorboot $(1)/usr/bin/dorboot
+	$(INSTALL_DIR) $(1)/usr
+	cp -pR ./root/usr/* $(1)/usr/
 
 	$(INSTALL_DIR) $(1)/usr/lib/lua/luci
 	cp -pR ./luasrc/* $(1)/usr/lib/lua/luci/
