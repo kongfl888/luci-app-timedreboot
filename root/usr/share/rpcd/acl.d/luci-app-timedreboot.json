@@ -2,6 +2,9 @@
 	"luci-app-timedreboot": {
 		"description": "Grant UCI access for luci-app-timedreboot",
 		"read": {
+			"file": {
+			    "/etc/init.d/timedreboot": [ "exec" ]
+			},
 			"uci": [ "timedreboot" ]
 		},
 		"write": {

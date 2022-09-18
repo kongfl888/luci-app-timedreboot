@@ -68,12 +68,19 @@ justcfg() {
     local minute=`get_cfg_value "minute"`
     local hour=`get_cfg_value "hour"`
     local week=`get_cfg_value "week"`
+    local sday=`get_cfg_value "sday"`
     local once=`get_cfg_value "once"`
     
     if [ $minute = 0 ] ; then
         minute="00"
     fi
-    if [ $week = 7 ] ; then
+    if [ $week != 8 ] ; then
+        sday="*"
+    else
+        sday=`echo $sday | grep -owE "^[0-9]+\-[0-9]+|^[0-9]+(,[0-9]+)*"`
+		[ -z $sday ] && sday=15
+    fi
+    if [ $week -gt 6 ] ; then
         week="*"
     fi
 
@@ -81,7 +88,7 @@ justcfg() {
     
     param=`get_cron_parameter`
 
-    cfgstr="$minute $hour * * $week"
+    cfgstr="$minute $hour $sday * $week"
     cronstr=`get_cron_timestr`
 
     if [ "$renable" == "0" ]; then

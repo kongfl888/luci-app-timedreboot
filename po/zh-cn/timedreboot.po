@@ -46,5 +46,14 @@ msgstr "星期六"
 msgid "Sunday"
 msgstr "星期天"
 
+msgid "Someday"
+msgstr "哪天"
+
+msgid "Days of month"
+msgstr "具体哪号"
+
+msgid "You also can use like this: 2,8,16 or 5-15."
+msgstr "你还可以这样：2,8,16或者5-15，但得是英文标点。默认15号"
+
 msgid "Only once"
 msgstr "仅执行一次"
