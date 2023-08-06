@@ -30,7 +30,7 @@ week:value(0,translate("Sunday"))
 week:value(8,translate("Someday"))
 week.default = 6
 
-day=s:option(Value,"sday",translate("Days of month"),translate("You also can use like this: 2,8,16 or 5-15."))
+day = s:option(Value,"sday",translate("Days of month"),translate("You also can use like this: 2,8,16 or 5-15."))
 day.default = 15
 day.rmempty = true
 day:depends("week",8)
@@ -39,7 +39,7 @@ once=s:option(Flag,"once",translate("Only once"))
 once.rmempty = false
 once.default = 0
 
-local apply =luci.http.formvalue("cbi.apply")
+local apply = luci.http.formvalue("cbi.apply")
 if apply then
     luci.sys.call("/etc/init.d/timedreboot restart")
 end
