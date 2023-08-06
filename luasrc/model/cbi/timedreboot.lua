@@ -35,7 +35,7 @@ day.default = 15
 day.rmempty = true
 day:depends("week",8)
 
-once=s:option(Flag,"once",translate("Only once"))
+once = s:option(Flag,"once",translate("Only once"))
 once.rmempty = false
 once.default = 0
 
