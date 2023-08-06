@@ -1,7 +1,8 @@
 
-config main
-	option enable '0'
-	option minute '10'
-	option hour '6'
-    option week '6'
+config timedreboot 'config'
 	option once '0'
+	option hour '11'
+	option week '7'
+	option enable '1'
+	option minute '49'
+
