@@ -6,8 +6,8 @@
 sleep 5s
 
 if [ ! -e "/etc/config/timedreboot" ]; then
-    echo "timedreboot cfg is not exit" >> /tmp/timedreboot.log
-    logger "timedreboot cfg is not exit. Stop!"
+    echo "Timed reboot cfg is not exit" >> /tmp/timedreboot.log
+    logger "Timed reboot cfg is not exit. Stop!"
     exit 1
 fi
 
@@ -17,7 +17,7 @@ renable=1
 
 get_cfg_value(){
 
-    v=`uci get timedreboot.@main[0].$1 2>/dev/null`
+    v=`uci get timedreboot.config.$1 2>/dev/null`
 
     if [ ! -z "$v" ]; then
         echo "$v"
@@ -53,8 +53,8 @@ set_cron() {
 
 rebootsys() {
     if [ "${1}" = "1" ]; then
-        uci set timedreboot.@main[0].enable="0"
-        uci set timedreboot.@main[0].once="0"
+        uci set timedreboot.config.enable="0"
+        uci set timedreboot.config.once="0"
         uci commit timedreboot
         clear_cron
     fi
