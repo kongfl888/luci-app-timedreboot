@@ -28,7 +28,7 @@ week:value(5,translate("Friday"))
 week:value(6,translate("Saturday"))
 week:value(0,translate("Sunday"))
 week:value(8,translate("Someday"))
-week.default = 6
+week.default = 7
 
 day = s:option(Value,"sday",translate("Days of month"),translate("You also can use like this: 2,8,16 or 5-15."))
 day.default = 15
