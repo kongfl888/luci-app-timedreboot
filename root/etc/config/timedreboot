@@ -2,7 +2,7 @@
 config timedreboot 'config'
 	option once '0'
 	option hour '0'
-	option week '0'
+	option week '7'
 	option enable '0'
 	option minute '0'
 
