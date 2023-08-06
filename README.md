@@ -1,4 +1,6 @@
-# OpenWRT 定时重启 （Timed Reboot for OpenWRT）
+# OpenWRT 定时重启 （Timed Reboot for OpenWRT)
+
+<br>[简体中文] | [English](README_en.md)
 
 ![Build](https://github.com/kongfl888/luci-app-timedreboot/workflows/Build/badge.svg)
 
