@@ -6,6 +6,12 @@
 
 <img alt="Preview" src="https://raw.githubusercontent.com/animegasan/mikwrt/main/preview/luci-app-timedreboot.png"/>
 
+## How to use
+* Go to Timed Reboot menu
+* Check enable option and save (To create file /etc/crontabs/root)
+* Uncheck enable option and save
+* Check enable option again and save
+
 ## Compile method
 * Copy to `package` directory
 * Run make menuconfig
